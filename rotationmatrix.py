@@ -17,7 +17,7 @@ Ry = np.matrix([[ m.cos(30), 0, m.sin(30)],
                    [-m.sin(30), 0, m.cos(30)]])
 
 Rz = np.matrix([[  m.cos(30),-m.sin(30),0],
-                   [  m.sin(30), m.cos(30)],0
+                   [  m.sin(30), m.cos(30),0]
                    [0       ,0          1]])
 
 P1 = Rx * Bp
